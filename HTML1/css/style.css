@@ -1,0 +1,20 @@
+.Heading{
+    color: brown;
+    font-style: italic;
+    text-align: center;
+}
+
+.paragraph{
+    color: brown;
+}
+
+.list{
+    color: blue;
+}
+
+table{
+    border-radius: 5px;
+    border-color: cyan;
+    border-spacing: 5px;
+    border-width: 5px;
+}

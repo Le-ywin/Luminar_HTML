@@ -1,0 +1,256 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .top-links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart {
+        margin-top: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-style {
+        width: 90%;
+        max-width: 400px;
+    }
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: inline-block;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.logo:hover {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #000;
+}
+
+.top-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-links li {
+    display: flex;
+    gap: 15px;
+}
+
+.top-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.3s;
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+.top-links a:hover {
+    color: #555;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    min-width: 150px;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+}
+
+.dropdown-menu a {
+    display: block;
+    width: 100%;
+}
+
+.dropdown-menu a:hover {
+    background: #f0f0f0;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #a1a1a1;
+    border-radius: 8px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    filter: invert(1);
+    transition: 0.2s ease-in-out;
+}
+
+.cart i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.cart span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart .cart-count {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin-left: 5px;
+}
+
+.second-container {
+    text-align: center;
+    height: 300px;
+    background-color: black;
+    color: antiquewhite;
+    align-content: center;
+    width: 100%;
+}
+
+.second-container h1{
+    display: inline;
+}
+
+.body-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-style {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 10px;
+}
+
+.card-style img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.details a {
+
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s ease-in-out;
+    transition: text-shadow 0.1s ease-in-out;
+}
+
+.details a:hover {
+    color: #555;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.details {
+    text-align: center;
+    min-height: 175px;
+}
+
+.details button {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    /* font-size: 12px; */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details button:hover {
+    background-color: black;
+    color: white;
+}
+
+.image {
+    width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+
+
+.image:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
