@@ -1,0 +1,9 @@
+git status
+
+git init >> initialize git into a repository
+
+git add .   >> all files move into staging
+
+git add <filename>
+
+git commit -m "message"
