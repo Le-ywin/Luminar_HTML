@@ -7,3 +7,6 @@ git add .   >> all files move into staging
 git add <filename>
 
 git commit -m "message"
+
+git clone <repostory url> >> to generate a github repository to local machine
+
